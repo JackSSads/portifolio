@@ -11,7 +11,7 @@ const About = () => {
             </div>
             <div className="flex flex-row justify-around">
 
-                <img src="my.jpg" 
+                <img src="img/my.jpg" 
                 alt="" 
                 className="max-h-96 rounded-xl"
                 />
