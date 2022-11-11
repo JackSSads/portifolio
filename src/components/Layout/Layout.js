@@ -1,5 +1,6 @@
 import Footer from "../Footer/Footer";
 import Navbar from "../NavBar/NavBar";
+import Baseboard from "../Baseboard/Baseboard";
 
 const Layout = ({ children }) => {
     return (
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
             <main>
                 {children}
             </main>
+            <Baseboard></Baseboard>
             <Footer></Footer>
         </div>
     );
