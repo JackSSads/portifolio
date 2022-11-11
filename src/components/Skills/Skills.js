@@ -4,7 +4,7 @@ const Skills = () => {
             flex flex-row items-center justify-between
             mt-80 h-full">
 
-            <img src="image2.jpg" className="h-96 w-72 rounded-xl" />
+            <img src="img/image2.jpg" className="h-96 w-72 rounded-xl" />
 
             <div className="w-1/2 text-left font-semibold text-3xl">
                 <p className="font-light text-lg mb-1">
