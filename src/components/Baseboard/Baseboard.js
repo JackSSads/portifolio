@@ -4,7 +4,7 @@ const Baseboard = () => {
             bg-gray-500 h-60 w-full bg-cover bg-center
             relative flex justify-start items-center">
 
-            <img src="img/image3.jpg"
+            <img src="img/image3.jpg" alt=""
                 className="h-full w-full object-cover
                 absolute mix-blend-overlay"/>
 
