@@ -9,7 +9,7 @@ const Baseboard = () => {
                 absolute mix-blend-overlay"/>
 
             <h3 className="ml-10 text-5xl text-white font-semibold">
-                Vamos Criar o eu Site Já!</h3>
+                Venha Criar seu Site!</h3>
 
         </div>
     );
