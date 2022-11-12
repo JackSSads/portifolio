@@ -4,13 +4,13 @@ import { BsGithub, BsInstagram } from "react-icons/bs";
 const Navbar = () => {
     return (
         <nav className="
-            flex flex-row justify-between 
-            p-5 h-20 w-full">
+            flex flex-row justify-around 
+            sm:justify-between p-5 h-20 w-full">
 
             <div className="">Logo</div>
 
             <ul className="
-                flex flex-row w-1/3 justify-center font-light">
+                hidden sm:flex flex-row w-1/3 justify-center font-light">
 
                 <li>
                     <a href="#top" 
@@ -34,8 +34,8 @@ const Navbar = () => {
             </ul>
 
             <ul className="
-                flex flex-row w-1/12
-                justify-around">
+                flex flex-row w-1/3 justify-around
+                sm:w-1/6">
 
                 <li>
                     <a href="https://www.linkedin.com/in/jackson-souza-ads/" target="_blank"

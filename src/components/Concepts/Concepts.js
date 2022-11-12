@@ -21,11 +21,11 @@ const Concepts = () => {
             </div>
 
             <div className="
-                    flex justify-between">
+                    flex flex-col md:flex-row justify-between">
 
                 <div className="
-                    w-80 p-2 rounded-md 
-                     text-left shadow-lg shadow-gray-200">
+                    w-3/3 p-2 rounded-md md:w-80
+                    text-left shadow-lg shadow-gray-200">
 
                     <i className="text-8xl text-blue-500"
                     ><FaPencilRuler /></i>
@@ -44,7 +44,7 @@ const Concepts = () => {
                 </div>
 
                 <div className="
-                    w-80 p-2 rounded-md 
+                    w-3/3 p-2 rounded-md md:w-80 mt-10
                     text-left shadow-lg shadow-gray-200">
 
                     <i className="text-8xl text-blue-500"
@@ -63,8 +63,8 @@ const Concepts = () => {
                 </div>
 
                 <div className="
-                    w-80 p-2 rounded-md 
-                     text-left shadow-lg shadow-gray-200 ">
+                    w-3/3 p-2 rounded-md md:w-80 mt-10
+                    text-left shadow-lg shadow-gray-200">
 
                     <i className="text-8xl text-blue-500"
                     ><MdDevicesOther /></i>

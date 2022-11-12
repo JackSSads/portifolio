@@ -4,7 +4,7 @@ const Projects = () => {
     return (
         <div className="
         flex flex-row justify-between items-center
-        h-screen">
+        mt-80 h-full">
 
             <div className="text-left">
                 <p className="text-gray-600 text-24 mb-1">
