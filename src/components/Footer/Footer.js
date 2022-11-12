@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer id="footer" className="
             flex flex-col my-20 ml-2 justify-around items-start
-            h-52 md:flex-row md:items-center md:my-5">
+            h-52 text-gray-800 md:flex-row md:items-center md:my-5">
 
             <div>Logo</div>
 
@@ -46,7 +46,7 @@ const Footer = () => {
 
                     <li>
                         <a href="https://github.com/JackSSads" target="_blank"
-                            className=" flex items-center text-xl hover:text-gray-600">
+                            className=" flex items-center text-xl hover:text-black">
                             <BsGithub /> GitHub
                         </a>
                     </li>

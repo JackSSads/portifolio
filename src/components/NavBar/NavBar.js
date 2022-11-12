@@ -34,7 +34,7 @@ const Navbar = () => {
             </ul>
 
             <ul className="
-                flex flex-row w-1/3 justify-around
+                flex flex-row w-1/3 justify-around text-gray-800
                 sm:w-1/6">
 
                 <li>
@@ -45,7 +45,7 @@ const Navbar = () => {
 
                 <li>
                     <a href="https://github.com/JackSSads" target="_blank"
-                        className="text-xl hover:text-gray-600"><BsGithub />
+                        className="text-xl hover:text-black"><BsGithub />
                     </a>
                 </li>
 
