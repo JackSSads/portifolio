@@ -21,26 +21,26 @@ const Skills = () => {
                     aplicações Web
                 </h2>
 
-                <div className="G
+                <div className="
                     flex flex-row justify-between
                     w-full h-3/4 mt-10">
 
                     <div className="
                         h-32 mr-1 p-2 flex flex-col justify-around items-center
                         mt-16 rounded-lg bg-blue-500 
-                        text-white font-bold text-5xl md:h-44 w-44">
+                        text-white font-bold text-6xl md:h-44 w-44">
                         <SiJavascript></SiJavascript></div>
 
                     <div className="
                         h-32 mr-1 p-2 flex flex-col justify-around items-center
                         mt-16 rounded-lg bg-blue-500 
-                        text-white font-bold text-5xl md:h-44 w-44">
+                        text-white font-bold text-6xl md:h-44 w-44">
                         <TbBrandNextjs></TbBrandNextjs></div>
 
                     <div className="
                         h-32 mr-1 p-2 flex flex-col justify-around items-center
                         mt-16 rounded-lg bg-blue-500 
-                        text-white font-bold text-5xl md:h-44 w-44">
+                        text-white font-bold text-6xl md:h-44 w-44">
                         <SiNestjs></SiNestjs></div>
                 </div>
             </div>
