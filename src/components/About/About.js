@@ -23,7 +23,7 @@ const About = () => {
                     mt-10 text-start text-gray-500
                     md:w-1/2">
                     <p>
-                        olá! Meu nome é <span className="underline">Jackson Souza</span>, tenho 22 anos,
+                        Olá! Meu nome é <span className="underline">Jackson Souza</span>, tenho 22 anos,
                         sou desenvolvedor Fullstack Web Js. Atuo na 
                         área a pouco mais de um ano como freelancer.
                         Estou me reinventando a cada dia, sempre procurando
@@ -31,30 +31,15 @@ const About = () => {
                         Aplico meus conhecimento em projetos pessoais e proficionais.
                     </p>
                     <p className="my-5">
-                        No decorrer da minha carreira, adquiri conhecimento em cursos como:
-                    </p>
-                    <p>
-                        • Curso JavaScript
-                    </p>
-                    <p>
-                        • Curso Node Js
-                    </p>
-                    <p>
-                        • Curso HTML5, CSS3 & Bootstrap5
-                    </p>
-                    <p>
-                        • Curso React Js
-                    </p>
-                    <p>
-                        • Curso Next Js
-                    </p>
-                    <p>
-                        • Curso Nest Js
-                    </p>
-
+                        No decorrer da minha carreira, adquiri conhecimento em cursos como:</p>
+                    <p>• Curso JavaScript</p>
+                    <p>• Curso Node Js</p>
+                    <p>• Curso HTML5, CSS3 & Bootstrap5</p>
+                    <p>• Curso React Js</p>
+                    <p>• Curso Next Js</p>
+                    <p>• Curso Nest Js</p>
                     <p className="mt-5">
-                        Também sou bacharel em Analise e Desenvolvimento de Sistemas.
-                    </p>                    
+                        Também sou bacharel em Analise e Desenvolvimento de Sistemas.</p>                    
                 </div>
             </div>
 
