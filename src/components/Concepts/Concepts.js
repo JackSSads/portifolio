@@ -23,8 +23,8 @@ const Concepts = () => {
             <div className="flex flex-col md:flex-row justify-between items-center">
 
                 <div className=" flex flex-col justify-center 
-                    w-3/3 p-2 h-96 rounded-md md:w-80 md:mr-1
-                    text-left shadow-lg shadow-gray-200
+                    w-full p-2 h-96 rounded-md md:w-80
+                    text-left shadow-lg shadow-gray-200 md:w-3/3
                     dark:shadow-md dark:shadow-gray-500">
 
                     <i className="text-8xl text-blue-500"
@@ -41,8 +41,8 @@ const Concepts = () => {
                 </div>
 
                 <div className="flex flex-col justify-center
-                    w-3/3 p-2 h-96 mt-10 rounded-md md:w-80 md:mt-0
-                    text-left shadow-lg shadow-gray-200
+                    w-full p-2 h-96 mt-10 rounded-md md:w-80 md:mt-0
+                    text-left shadow-lg shadow-gray-200 md:w-3/3 md:mx-2
                     dark:shadow-md dark:shadow-gray-500">
 
                     <i className="text-8xl text-blue-500"
@@ -58,9 +58,9 @@ const Concepts = () => {
                 </div>
 
                 <div className="flex flex-col justify-center
-                    w-3/3 p-2 h-96 mt-10 rounded-md text-left
-                    shadow-lg shadow-gray-200
-                    md:w-80 md:mt-0 md:ml-1
+                    w-full p-2 h-96 mt-10 rounded-md text-left
+                    shadow-lg shadow-gray-200 md:w-3/3
+                    md:w-80 md:mt-0
                     dark:shadow-md dark:shadow-gray-500">
 
                     <i className="text-8xl text-blue-500"
