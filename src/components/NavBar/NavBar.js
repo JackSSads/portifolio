@@ -1,32 +1,35 @@
 import { IoLogoLinkedin } from "react-icons/io";
 import { BsGithub, BsInstagram } from "react-icons/bs";
 
+import ThemeMode from "../buttons/ThemeMode";
+
 const Navbar = () => {
     return (
         <nav className="
-            flex flex-row justify-around 
-            sm:justify-between p-5 h-20 w-full">
+            flex flex-row justify-between items-center
+            p-5 h-20 w-full">
 
             <div className="">Logo</div>
 
             <ul className="
-                hidden sm:flex flex-row w-1/3 justify-center font-light">
+                hidden sm:flex flex-row w-1/3 justify-center 
+                font-light text-gray-700 dark:text-gray-400">
 
                 <li>
-                    <a href="#top" 
-                        className="text-gray-800  hover:font-semibold">
+                    <a href="#top"
+                        className="hover:font-semibold">
                         Inicio</a>
                 </li>
 
                 <li>
                     <a href="#about"
-                        className="text-gray-800 ml-10 hover:font-semibold">
+                        className="ml-10 hover:font-semibold">
                         Sobre</a>
                 </li>
 
                 <li>
                     <a href="#footer"
-                        className="text-gray-800 ml-10 hover:font-semibold">
+                        className="ml-10 hover:font-semibold">
                         Contato
                     </a>
                 </li>
@@ -34,27 +37,30 @@ const Navbar = () => {
             </ul>
 
             <ul className="
-                flex flex-row w-1/3 justify-around text-gray-800
+                flex flex-row w-1/3 justify-around text-gray-500
                 sm:w-1/6">
 
                 <li>
-                    <a href="https://www.linkedin.com/in/jackson-souza-ads/" target="_blank"
+                    <a href="https://www.linkedin.com/in/jackson-souza-ads/" rel="external"
                         className="text-xl hover:text-blue-600"><IoLogoLinkedin />
                     </a>
                 </li>
 
-                <li>
-                    <a href="https://github.com/JackSSads" target="_blank"
+                <li className="mx-1 md:ml-0">
+                    <a href="https://github.com/JackSSads" rel="external"
                         className="text-xl hover:text-black"><BsGithub />
                     </a>
                 </li>
 
-                <li>
-                    <a href="https://www.instagram.com/jackssads/" target="_blank"
+                <li className="mx-1 pr-2 md:ml-0">
+                    <a href="https://www.instagram.com/jackssads/" rel="external"
                         className="text-xl hover:text-rose-500"><BsInstagram />
                     </a>
                 </li>
 
+                <li className="border-l border-gray-500 pl-3 ml-1 lg:pl-5">
+                    <ThemeMode/>
+                </li>
             </ul>
         </nav>
     );

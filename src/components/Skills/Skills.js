@@ -1,12 +1,11 @@
 import { SiJavascript, SiNestjs } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
-
 const Skills = () => {
     return (
         <div className="
             flex flex-row items-center justify-between
-            mt-80 h-full">
+            mt-32 h-full">
 
             <img src="img/image2.jpg" alt="" className="hidden md:block md:h-full w-72 rounded-xl" />
 
@@ -42,6 +41,7 @@ const Skills = () => {
                         mt-16 rounded-lg bg-blue-500 
                         text-white font-bold text-6xl md:h-44 w-44">
                         <SiNestjs></SiNestjs></div>
+
                 </div>
             </div>
         </div>

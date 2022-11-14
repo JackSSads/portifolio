@@ -1,10 +1,10 @@
-import CardProject from "../Templates/CardProject/CardProject";
+/* Trabalho futuro de implementação dos meus projetos */
 
 const Projects = () => {
     return (
-        <div className="
-        flex flex-row justify-between items-center
-        mt-80 h-full">
+        <div className="hidden
+        /* flex flex-row justify-between items-center
+        mt-32 h-full */">
 
             <div className="text-left">
                 <p className="text-gray-600 text-24 mb-1">
@@ -13,14 +13,9 @@ const Projects = () => {
                 <h2 className="
                     text-blue-500 font-semibold text-2xl
                     mb-16">
-                Veja alguns projetos desenvolvidos
+                    Veja alguns projetos desenvolvidos
                 </h2>
             </div>
-
-            <div>
-                <CardProject></CardProject>
-            </div>
-
         </div>
     );
 };
