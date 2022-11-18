@@ -47,7 +47,7 @@ const Footer = () => {
 
                     <li>
                         <a href="https://github.com/JackSSads" rel="external"
-                            className=" flex items-center text-xl hover:text-black">
+                            className=" flex items-center text-xl hover:text-white">
                             <BsGithub /> GitHub
                         </a>
                     </li>
