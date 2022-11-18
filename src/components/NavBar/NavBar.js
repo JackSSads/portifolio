@@ -48,7 +48,10 @@ const Navbar = () => {
 
                 <li className="mx-1 md:ml-0">
                     <a href="https://github.com/JackSSads" rel="external"
-                        className="text-xl hover:text-black"><BsGithub />
+                        className="
+                            text-xl hover:text-black
+                            dark:hover:text-white
+                        "><BsGithub />
                     </a>
                 </li>
 
