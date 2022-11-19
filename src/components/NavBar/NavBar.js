@@ -9,7 +9,12 @@ const Navbar = () => {
             flex flex-row justify-between items-center
             p-5 h-20 w-full">
 
-            <div className="">Logo</div>
+            <div>
+                <img 
+                src="img/logo.png" 
+                alt="Logo" 
+                className="w-28 md:w-40"/>
+            </div>
 
             <ul className="
                 hidden sm:flex flex-row w-1/3 justify-center 
@@ -17,19 +22,19 @@ const Navbar = () => {
 
                 <li>
                     <a href="#top"
-                        className="hover:font-semibold">
+                        className="ml-10 hover:text-black hover:font-semibold hover:dark:text-white">
                         Inicio</a>
                 </li>
 
                 <li>
                     <a href="#about"
-                        className="ml-10 hover:font-semibold">
+                        className="ml-10 hover:text-black hover:font-semibold hover:dark:text-white">
                         Sobre</a>
                 </li>
 
                 <li>
                     <a href="#footer"
-                        className="ml-10 hover:font-semibold">
+                        className="ml-10 hover:text-black hover:font-semibold hover:dark:text-white">
                         Contato
                     </a>
                 </li>

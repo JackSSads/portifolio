@@ -8,10 +8,15 @@ const Footer = () => {
 
     return (
         <footer id="footer" className="
-            flex flex-col justify-around items-start ml-5 mt-32 pb-5 h-full 
+            flex flex-col justify-around items-start ml-5 mt-20 pb-5 h-full 
             text-gray-500 md:ml-0 md:flex-row md:items-center md:my-5">
 
-            <div>Logo</div>
+            <div className=" w-full flex justify-center items-center mb-10 md:w-auto">
+                <img
+                    src="img/logo.png"
+                    alt="Logo"
+                    className="w-40" />
+            </div>
 
             <div className="flex flex-col">
 
@@ -47,7 +52,7 @@ const Footer = () => {
 
                     <li>
                         <a href="https://github.com/JackSSads" rel="external"
-                            className=" flex items-center text-xl hover:text-white">
+                            className=" flex items-center text-xl hover:text-black dark:hover:text-white">
                             <BsGithub /> GitHub
                         </a>
                     </li>
@@ -61,7 +66,7 @@ const Footer = () => {
 
                 </ul>
             </div>
-            
+
         </footer>
     );
 };
