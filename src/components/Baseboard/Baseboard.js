@@ -4,7 +4,7 @@ const Baseboard = () => {
     return (
         <div className="
             bg-gray-700 h-60 w-full mt-32 bg-cover bg-center
-            relative flex justify-start items-center overscroll-contain">
+            relative flex justify-center md:justify-start items-center overscroll-contain">
 
             <img src="img/image3.jpg" alt=""
                 className="h-full w-full object-cover
