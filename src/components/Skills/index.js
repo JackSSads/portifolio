@@ -1,4 +1,4 @@
-import Carrossel from "../Carrossel/Carrossel";
+import Carrossel from "../Carrossel";
 
 const Skills = () => {
     return (

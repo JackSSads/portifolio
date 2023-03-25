@@ -15,7 +15,7 @@ const Salutation = () => {
 
                 <p className="">Quero que meus clientes se sintam incríveis e únicos. Levando seus projetos a outro nível!</p>
 
-                <a type="button" href="https://wa.me/5584994015772" rel="" 
+                <a type="button" href="https://wa.me/5584994015772?text=Ol%C3%A1%20Gostaria%20de%20um%20or%C3%A7amento..." rel="" 
                     className="
                         flex justify-center items-center font-bold
                         w-full h-1 p-5 mt-10 text-white bg-blue-500 rounded-lg md:w-2/3

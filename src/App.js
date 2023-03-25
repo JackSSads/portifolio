@@ -1,8 +1,8 @@
-import Salutation from './components/Salutation/Salutation';
-import Skills from './components/Skills/Skills';
-import Concepts from './components/Concepts/Concepts';
-import About from './components/About/About';
-import Projects from './components/Projects/Projects';
+import Salutation from './components/Salutation';
+import Skills from './components/Skills';
+import Concepts from './components/Concepts';
+import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
   return (

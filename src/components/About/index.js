@@ -24,7 +24,7 @@ const About = () => {
                     md:w-1/2">
                     <p>
                         Olá! Meu nome é <span className="underline">Jackson Souza</span>, tenho 22 anos,
-                        sou desenvolvedor Fullstack Web Js. Atuo na 
+                        sou desenvolvedor Full Stack Web Js. Atuo na 
                         área a pouco mais de um ano como freelancer.
                         Estou me reinventando a cada dia, sempre procurando
                         melhorar e focado no meu objetivo: fazer o melhor!
