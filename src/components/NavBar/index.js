@@ -7,7 +7,7 @@ const Navbar = ({ color }) => {
 
     return (
         <nav className={
-                `${color ? 'flex flex-row justify-between items-center fixed top-1 left-0 right-0 bg-blue-900/95 p-5 h-20 w-full transition-all duration-500 rounded-xl z-50'
+                `${color ? 'flex flex-row justify-between items-center fixed top-1 left-1 right-1 bg-blue-900/95 p-5 h-20 transition-all duration-500 rounded-xl z-50'
                 : 
                 'flex flex-row justify-between items-center fixed top-0 left-0 right-0 bg-transparent p-5 h-20 w-full transition-all duration-500'}`}>
 
