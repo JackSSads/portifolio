@@ -18,9 +18,9 @@ const Navbar = ({ color }) => {
                     className="w-28 md:w-40" />
             </div>
 
-            <ul className={` ${color ? 'text-slate-100' : ''}
+            <ul className={` ${color ? 'text-white' : ''}
                     hidden sm:flex flex-row w-1/3 justify-center 
-                    font-light text-gray-700 dark:text-gray-400`}>
+                    font-light  dark:text-gray-400`}>
 
                 <li>
                     <a href="#top"
