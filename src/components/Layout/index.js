@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
 
     return (
         <ThemeContextProvider>
-            <div className="dark:bg-neutral-800 dark:text-gray-300 pt-20">
+            <div className="dark:bg-neutral-800 dark:text-gray-300 pt-20 transition-all duration-500">
                 <div id="top"></div>
                 <Navbar color={colorNavbar}/>
                 <main>
