@@ -2,7 +2,7 @@ import Carrossel from "../Carrossel";
 
 const Skills = () => {
     return (
-        <div id="elemento" className="
+        <div className="
             flex flex-row items-center justify-between
             mt-32 h-full">
 
