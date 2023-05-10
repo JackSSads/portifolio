@@ -7,15 +7,15 @@ import { BsGithub, BsInstagram } from "react-icons/bs";
 const Footer = () => {
 
     return (
-        <footer id="footer" className="
+        <footer id="contact" className="
             flex flex-col justify-around items-start ml-5 mt-20 pb-5 h-full 
             text-gray-500 md:ml-0 md:flex-row md:items-center md:my-5">
 
-            <div className=" w-full flex justify-center items-center mb-10 md:w-auto">
+            <div className=" w-full flex justify-center items-center md:w-auto">
                 <img
-                    src="img/logo.png"
+                    src="img/logo-and-name.png"
                     alt="Logo"
-                    className="w-40" />
+                    className="w-40 h-40" />
             </div>
 
             <div className="flex flex-col">
