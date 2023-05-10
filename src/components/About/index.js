@@ -38,7 +38,7 @@ const About = () => {
                     <p>• Curso React Js</p>
                     <p>• Curso Next Js</p>
                     <p>• Curso Nest Js</p>
-                    <p className="mt-5">
+                    <p className="mt-5 text-center">
                         Também sou bacharel em Analise e Desenvolvimento de Sistemas.</p>                    
                 </div>
             </div>
