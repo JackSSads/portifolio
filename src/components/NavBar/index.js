@@ -2,51 +2,46 @@ import { IoLogoLinkedin } from "react-icons/io";
 import { BsGithub, BsInstagram } from "react-icons/bs";
 
 import ThemeMode from "../buttons/ThemeMode";
+import { Link } from "../Link";
+
+import "./index.css"
 
 const Navbar = ({ color }) => {
 
     return (
         <nav className={
-                `${color ? 'flex flex-row justify-between items-center fixed top-1 left-1 right-1 bg-blue-900/95 p-5 h-20 transition-all duration-500 rounded-xl z-50'
-                : 
+            `${color ? 'flex flex-row justify-between items-center fixed top-1 left-1 right-1 bg-blue-900/95 p-5 h-20 transition-all duration-500 rounded-xl z-50'
+                :
                 'flex flex-row justify-between items-center fixed top-0 left-0 right-0 bg-transparent p-5 h-20 w-full transition-all duration-500'}`}>
 
-            <div>
-                <img
-                    src="img/logo.png"
-                    alt="Logo"
-                    className="w-28 md:w-40" />
-            </div>
+            {color ?
+                <div>
+                    <img
+                        src="img/logo.png"
+                        alt="Logo"
+                        className="h-[50px] md:h-[70px]  rotate-logo" />
+                </div>
+                :
+                <div className="flex justify-center items-center">
+                    <img
+                        src="img/logo.png"
+                        alt="Logo"
+                        className="h-[50px] md:h-[70px] rotate-logo"
+                        />
+                    <img
+                        src="img/logo-name.png"
+                        alt="Logo"
+                        className="hidden md:block md:w-[150px] ml-2" />
+                </div>
+            }
 
             <ul className={` ${color ? 'text-white' : ''}
                     hidden sm:flex flex-row w-1/3 justify-center 
                     font-light  dark:text-gray-400`}>
 
-                <li>
-                    <a href="#top"
-                        className="
-                            ml-10 hover:border-b-2 
-                            hover:dark:text-white">
-                        Inicio</a>
-                </li>
-
-                <li>
-                    <a href="#about"
-                        className="
-                        ml-10 hover:border-b-2 
-                        hover:dark:text-white">
-                        Sobre</a>
-                </li>
-
-                <li>
-                    <a href="#footer"
-                        className="
-                        ml-10 hover:border-b-2 
-                        hover:dark:text-white">
-                        Contato
-                    </a>
-                </li>
-
+                <Link text="Inicio" href="#root" />
+                <Link text="Sobre" href="#about" />
+                <Link text="Contato" href="#contact" />
             </ul>
 
             <ul className="
@@ -63,7 +58,7 @@ const Navbar = ({ color }) => {
                     <a href="https://github.com/JackSSads" rel="external"
                         className={` ${color ? 'hover:text-white' : 'hover:text-black'}
                             text-xl dark:hover:text-white`}
-                        ><BsGithub />
+                    ><BsGithub />
                     </a>
                 </li>
 
