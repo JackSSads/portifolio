@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react"
+import { useState, useEffect } from "react"
 
 import Footer from "../Footer";
 import Navbar from "../NavBar";
@@ -27,23 +27,23 @@ const Layout = ({ children }) => {
     };
   }, []);
 
-    return (
-        <ThemeContextProvider>
-            <div className="dark:bg-neutral-800 dark:text-gray-300 pt-20 transition-all duration-500">
-                <div id="top"></div>
-                <Navbar color={colorNavbar}/>
-                <main>
-                    {children}
-                </main>
-                <Baseboard />
-                <Footer />
-            <div className="text-gray-500 border-t border-gray-500 p-3 text-center font-semibold">
-                <p>Criado por <span className="font-bold"
-                >Jackson Souza</span> - 2022 &copy;</p>
-            </div>
-            </div>
-        </ThemeContextProvider>
-    );
+  return (
+    <ThemeContextProvider>
+      <div className="dark:bg-neutral-900 dark:text-gray-300 pt-20 transition-all duration-500">
+        <div id="top"></div>
+        <Navbar color={colorNavbar} />
+        <main>
+          {children}
+        </main>
+        <Baseboard />
+        <Footer />
+        <div className="text-gray-500 border-t border-gray-500 p-3 text-center font-semibold">
+          <p>Criado por <span className="font-bold"
+          >Jackson Souza</span> - 2023 &copy;</p>
+        </div>
+      </div>
+    </ThemeContextProvider>
+  );
 };
 
 export default Layout;
