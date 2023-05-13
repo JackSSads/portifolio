@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         </main>
         <Baseboard />
         <Footer />
-        <div className="text-white border-t bg-blue-900 p-3 text-center font-semibold">
+        <div className="text-white bg-blue-900 p-3 text-center font-semibold">
           <p>Copyright&copy; 2023 - <span className="font-bold underline"
           >Jackson Souza</span></p>
         </div>
