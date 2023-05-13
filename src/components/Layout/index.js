@@ -37,9 +37,9 @@ const Layout = ({ children }) => {
         </main>
         <Baseboard />
         <Footer />
-        <div className="text-gray-500 border-t border-gray-500 p-3 text-center font-semibold">
-          <p>Criado por <span className="font-bold"
-          >Jackson Souza</span> - 2023 &copy;</p>
+        <div className="text-white border-t bg-blue-900 p-3 text-center font-semibold">
+          <p>Copyright&copy; 2023 - <span className="font-bold underline"
+          >Jackson Souza</span></p>
         </div>
       </div>
     </ThemeContextProvider>
