@@ -10,7 +10,7 @@ export const Text2 = ({ text }) => {
         setTextoDigitado(textoDigitado + text.charAt(posicaoAtual));
         setPosicaoAtual(posicaoAtual + 1);
       }
-    }, 50); // tempo em milissegundos
+    }, 20); // tempo em milissegundos
 
     return () => clearTimeout(timer);
   }, [textoDigitado, posicaoAtual, text]);
