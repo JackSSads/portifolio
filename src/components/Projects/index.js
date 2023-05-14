@@ -4,7 +4,7 @@ import { CarroselProjects } from "../CarroselProjects";
 
 const Projects = () => {
     return (
-        <div className="mt-32 h-full">
+        <div className="mt-32 h-full hidden">
 
             <div className="text-left">
                 <p className="text-gray-600 text-24 mb-1">
