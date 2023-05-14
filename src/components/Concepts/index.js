@@ -23,9 +23,9 @@ const Concepts = () => {
             <div className="flex flex-col md:flex-row justify-between items-center">
 
                 <div className=" flex flex-col justify-center 
-                    w-full p-2 h-96 rounded-md md:w-80
+                    w-full p-2 h-96 rounded-md md:w-80 bg-gray-50
                     text-left shadow-lg shadow-gray-200 md:w-3/3
-                    dark:shadow-md dark:shadow-gray-500">
+                    dark:shadow-md dark:shadow-gray-500 dark:bg-neutral-800/10">
 
                     <i className="text-8xl text-blue-500"
                     ><FaPencilRuler /></i>
@@ -41,9 +41,9 @@ const Concepts = () => {
                 </div>
 
                 <div className="flex flex-col justify-center
-                    w-full p-2 h-96 mt-10 rounded-md md:w-80 md:mt-0
+                    w-full p-2 h-96 mt-10 rounded-md md:w-80 md:mt-0 bg-gray-50
                     text-left shadow-lg shadow-gray-200 md:w-3/3 md:mx-2
-                    dark:shadow-md dark:shadow-gray-500">
+                    dark:shadow-md dark:shadow-gray-500 dark:bg-neutral-800/10">
 
                     <i className="text-8xl text-blue-500"
                     ><GiGearHammer /></i>
@@ -60,8 +60,8 @@ const Concepts = () => {
                 <div className="flex flex-col justify-center
                     w-full p-2 h-96 mt-10 rounded-md text-left
                     shadow-lg shadow-gray-200 md:w-3/3
-                    md:w-80 md:mt-0
-                    dark:shadow-md dark:shadow-gray-500">
+                    md:w-80 md:mt-0 bg-gray-50
+                    dark:shadow-md dark:shadow-gray-500 dark:bg-neutral-800/10">
 
                     <i className="text-8xl text-blue-500"
                     ><MdDevicesOther /></i>
