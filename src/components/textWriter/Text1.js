@@ -25,4 +25,4 @@ export const Text1 = ({ text }) => {
       {textoDigitado}
     </h2>
   )
-} /* min-h-[150px] */
+} /* 40 letras | 40 * 50 = 2.000 */
