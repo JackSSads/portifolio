@@ -6,7 +6,7 @@ const Skills = () => {
             flex flex-row items-center justify-between
             mt-32 h-full">
 
-            <img src="img/image2.jpg" alt="" className="hidden md:block md:h-full w-72 rounded-xl" />
+            <img src="assets/img/image2.jpg" alt="" className="hidden md:block md:h-full w-72 rounded-xl" />
 
             <div className="w-full md:w-1/2 text-left font-semibold text-3xl">
                 <p className="font-light text-lg mb-1">

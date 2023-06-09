@@ -13,7 +13,7 @@ const Footer = () => {
 
             <div className=" w-full flex justify-center items-center md:w-auto">
                 <img
-                    src="img/logo-and-name.png"
+                    src="assets/img/logo-and-name.png"
                     alt="Logo"
                     className="w-40 h-40" />
             </div>
