@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div id="about" 
+        <div id="about"
             className="flex flex-col justify-center mt-32 h-full">
 
             <div className="text-left">
@@ -13,9 +13,9 @@ const About = () => {
                 flex flex-col items-center
                 md:flex-row md:justify-around">
 
-                <img src="img/my.jpg" 
-                alt="" 
-                className="h-96 w-48 rounded-xl"
+                <img src="assets/img/my.jpg"
+                    alt=""
+                    className="h-96 w-48 rounded-xl"
                 />
 
                 <div className="
@@ -24,7 +24,7 @@ const About = () => {
                     md:w-1/2">
                     <p>
                         Olá! Meu nome é <span className="underline">Jackson Souza</span>, tenho 22 anos,
-                        sou desenvolvedor Full Stack Web Js. Atuo na 
+                        sou desenvolvedor Full Stack Web Js. Atuo na
                         área a pouco mais de um ano como freelancer.
                         Estou me reinventando a cada dia, sempre procurando
                         melhorar e focado no meu objetivo: fazer o melhor!
@@ -39,7 +39,17 @@ const About = () => {
                     <p>• Curso Next Js</p>
                     <p>• Curso Nest Js</p>
                     <p className="mt-5 text-center">
-                        Também sou bacharel em Analise e Desenvolvimento de Sistemas.</p>                    
+                        Sou bacharel em Analise e Desenvolvimento de Sistemas.</p>
+                    <div className="mt-14">
+                        <a href="assets/pdf/CV_Jackson_Souza_da_Silva.pdf"
+                            download={"CV Jackson Souza"}
+                            className="
+                            font-bold
+                            w-full h-1 p-5 text-white bg-blue-500 rounded-lg
+                            shadow-lg  shadow-blue-300 dark:shadow-md dark:shadow-blue-400">
+                            Baixar currículo
+                        </a>
+                    </div>
                 </div>
             </div>
 

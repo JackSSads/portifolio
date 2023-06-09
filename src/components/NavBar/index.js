@@ -17,19 +17,19 @@ const Navbar = ({ color }) => {
             {color ?
                 <div>
                     <img
-                        src="img/logo.png"
+                        src="assets/img/logo.png"
                         alt="Logo"
                         className="h-[50px] md:h-[70px]  rotate-logo" />
                 </div>
                 :
                 <div className="flex justify-center items-center">
                     <img
-                        src="img/logo.png"
+                        src="assets/img/logo.png"
                         alt="Logo"
                         className="h-[50px] md:h-[70px] rotate-logo"
                         />
                     <img
-                        src="img/logo-name.png"
+                        src="assets/img/logo-name.png"
                         alt="Logo"
                         className="hidden md:block md:w-[150px] ml-2" />
                 </div>

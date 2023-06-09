@@ -28,7 +28,7 @@ const Salutation = () => {
             </div>
 
             <img
-                src="img/image1.jpg" alt=""
+                src="assets/img/image1.jpg" alt=""
                 className="h-full rounded-lg mt-10 
                     md:h-72 lg:h-80 xl:h-96" />
         </div>
