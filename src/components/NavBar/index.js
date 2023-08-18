@@ -7,27 +7,26 @@ import { Link } from "../Link";
 import "./index.css"
 
 const Navbar = ({ color }) => {
-
     return (
         <nav className={
             `${color ? 'flex flex-row justify-between items-center fixed top-1 left-1 right-1 bg-blue-900/95 p-5 h-20 transition-all duration-500 rounded-xl z-50'
                 :
-                'flex flex-row justify-between items-center fixed top-0 left-0 right-0 bg-transparent p-5 h-20 w-full transition-all duration-500'}`}>
-
+                'flex flex-row justify-between items-center fixed top-0 left-0 right-0 bg-transparent p-5 h-20 w-full transition-all duration-500'}`}
+        >
             {color ?
-                <div>
+                <div className="w-1/3">
                     <img
                         src="assets/img/logo.png"
                         alt="Logo"
                         className="h-[50px] md:h-[70px]  rotate-logo" />
                 </div>
                 :
-                <div className="flex justify-center items-center">
+                <div className="w-1/3 flex justify-start items-center">
                     <img
                         src="assets/img/logo.png"
                         alt="Logo"
                         className="h-[50px] md:h-[70px] rotate-logo"
-                        />
+                    />
                     <img
                         src="assets/img/logo-name.png"
                         alt="Logo"
@@ -36,7 +35,7 @@ const Navbar = ({ color }) => {
             }
 
             <ul className={` ${color ? 'text-white' : ''}
-                    hidden sm:flex flex-row w-1/3 justify-center 
+                    hidden sm:flex flex-row w-1/3 justify-start
                     font-light  dark:text-gray-400`}>
 
                 <Link text="Inicio" href="#root" />
@@ -44,9 +43,7 @@ const Navbar = ({ color }) => {
                 <Link text="Contato" href="#contact" />
             </ul>
 
-            <ul className="
-                    flex flex-row w-1/3 justify-around text-gray-400
-                    sm:w-1/6">
+            <ul className="flex gap-1 flex-row w-1/3 justify-around text-gray-400 sm:w-1/6">
 
                 <li>
                     <a href="https://www.linkedin.com/in/jackson-souza-ads/" rel="external"
@@ -54,7 +51,7 @@ const Navbar = ({ color }) => {
                     </a>
                 </li>
 
-                <li className="mx-1 md:ml-0">
+                <li>
                     <a href="https://github.com/JackSSads" rel="external"
                         className={` ${color ? 'hover:text-white' : 'hover:text-black'}
                             text-xl dark:hover:text-white`}
@@ -62,7 +59,7 @@ const Navbar = ({ color }) => {
                     </a>
                 </li>
 
-                <li className="mx-1 pr-2 md:ml-0">
+                <li>
                     <a href="https://www.instagram.com/jackssads/" rel="external"
                         className="text-xl hover:text-rose-500"><BsInstagram />
                     </a>
