@@ -29,19 +29,27 @@ const Layout = ({ children }) => {
 
   return (
     <ThemeContextProvider>
-      <div className="dark:bg-neutral-900 dark:text-gray-300 pt-20 transition-all duration-500">
-        <div id="top"></div>
-        <Navbar color={colorNavbar} />
-        <main>
-          {children}
-        </main>
-        <Baseboard />
-        <Footer />
-        <div className="text-white bg-blue-900 p-3 text-center font-semibold">
-          <p>Copyright&copy; 2023 - <span className="font-bold underline"
-          >Jackson Souza</span></p>
+      <>
+        <div className="dark:bg-neutral-900 dark:text-gray-300 pt-20 transition-all duration-500">
+
+          <div id="top"></div>
+
+          <Navbar color={colorNavbar} />
+
+          <main>
+            {children}
+          </main>
+
+          <Baseboard />
+          <Footer />
+
+          <div className="text-white bg-blue-900 p-3 text-center font-semibold">
+            <p>Copyright&copy; 2023 - <span className="font-bold underline"
+            >Jackson Souza</span></p>
+          </div>
         </div>
-      </div>
+      </>
+
     </ThemeContextProvider>
   );
 };

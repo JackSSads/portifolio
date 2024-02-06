@@ -6,7 +6,8 @@
 
 body {
   margin: 0;
-  font-family: "Rokkitt"
+  padding: 0;
+  font-family: "Rokkitt";
 }
 
 code {

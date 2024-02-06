@@ -7,11 +7,11 @@ import Projects from './components/Projects';
 function App() {
   return (
     <div className="text-center px-5 lg:px-20">
-        <Salutation />
-        <Skills />
-        <Concepts />
-        <About />
-        <Projects/>
+          <Salutation />
+          <Skills />
+          <Concepts />
+          <About />
+          <Projects />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export const Text2 = ({ text }) => {
     const executeTime = setTimeout(() => setExecultar(true), 3000);
 
     return () => clearTimeout(executeTime);
-  }, [])
+  }, []);
 
   useEffect(() => {
     function exec() {
@@ -23,11 +23,10 @@ export const Text2 = ({ text }) => {
       return () => clearTimeout(timer);
     }
 
-    if (executar)  exec()
+    if (executar) exec()
 
   }, [textoDigitado, posicaoAtual, executar, text]);
 
-  console.log(textoDigitado.length)
   return <p className="h-[72px] sm:h-[48px]">{textoDigitado}</p>;
 }
-/* 90 litras | 90 * = 1.980 */
+/* 90 letras | 90 * = 1.980 */
