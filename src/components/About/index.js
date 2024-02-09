@@ -18,29 +18,29 @@ const About = () => {
                     className="h-96 w-48 rounded-xl"
                 />
 
-                <div className="
-                    w-full flex flex-col justify-center items-center 
-                    mt-10 text-start text-gray-500
-                    md:w-1/2">
+                <div className="w-full flex flex-col justify-center items-start 
+                    mt-10 text-start text-gray-500 md:w-1/2">
                     <p>
-                        Olá! Meu nome é <span className="underline">Jackson Souza</span>, tenho 22 anos,
-                        sou desenvolvedor Full Stack Web Js. Atuo na
-                        área a pouco mais de um ano como freelancer.
-                        Estou me reinventando a cada dia, sempre procurando
-                        melhorar e focado no meu objetivo: fazer o melhor!
-                        Aplico meus conhecimento em projetos pessoais e proficionais.
+                        Olá! 👋 Sou <span className="underline">Jackson Souza</span>, um desenvolvedor Full Stack de 23 anos.
+                        Atuo como freelancer há mais de três anos, buscando constantemente aprimorar meus conhecimentos.
                     </p>
-                    <p className="my-5">
-                        No decorrer da minha carreira, adquiri conhecimento em cursos como:</p>
-                    <p>• Curso JavaScript</p>
-                    <p>• Curso Node Js</p>
-                    <p>• Curso HTML5, CSS3 & Bootstrap5</p>
-                    <p>• Curso React Js</p>
-                    <p>• Curso Next Js</p>
-                    <p>• Curso Nest Js</p>
-                    <p className="mt-5 text-center">
-                        Sou bacharel em Analise e Desenvolvimento de Sistemas.</p>
-                    <div className="mt-14">
+
+                    <p className="mb-2 mt-5 font-semibold">Habilidades:</p>
+                    <p>• JavaScript</p>
+                    <p>• Node.js</p>
+                    <p>• React.js</p>
+                    <p>• Next.js</p>
+
+                    <p className="mb-2 mt-5 font-semibold">Formação:</p>
+                    <p>Bacharel em Análise e Desenvolvimento de Sistemas.</p>
+                    
+                    <p className="mb-2 mt-5 font-semibold">Compromisso:</p>
+                    <p>Comprometido em entregar excelência em cada projeto e acompanhar as últimas tendências tecnológicas.</p>
+                    
+                    <p className="mb-2 mt-5 font-semibold">Objetivo:</p>
+                    <p>Busco oportunidades desafiadoras para crescer como profissional e contribuir para projetos inovadores.</p>
+                    
+                    <div className="mb-2 mt-10 font-semibold self-center">
                         <a href="assets/pdf/CV_Jackson_Souza_da_Silva.pdf"
                             download={"CV Jackson Souza"}
                             className="
