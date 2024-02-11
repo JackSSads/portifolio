@@ -15,11 +15,10 @@ const node = <div className="flex flex-col justify-around items-center"><p class
 const mysql = <div className="flex flex-col justify-around items-center"><p className="text-lg">MySQL</p><SiMysql /> <p className="text-sm">3 ANOS</p></div>
 const sequelize = <div className="flex flex-col justify-around items-center"><p className="text-lg">ORM</p><SiSequelize /> <p className="text-sm">2 ANOS</p></div>
 const handlebars = <div className="flex flex-col justify-around items-center"><p className="text-lg">HBS</p><SiHandlebarsdotjs /> <p className="text-sm">2 ANOS</p></div>
-const react = <div className="flex flex-col justify-around items-center"><p className="text-lg">REACT</p><SiReact /> <p className="text-sm">1 ANOS</p></div>
-const next = <div className="flex flex-col justify-around items-center"><p className="text-lg">NEXT</p><TbBrandNextjs /> <p className="text-sm">1 ANOS</p></div>
-const nest = <div className="flex flex-col justify-around items-center"><p className="text-lg">NEST</p><SiNestjs /> <p className="text-sm">1 ANOS</p></div>
+const react = <div className="flex flex-col justify-around items-center"><p className="text-lg">REACT</p><SiReact /> <p className="text-sm">1 ANO</p></div>
+const next = <div className="flex flex-col justify-around items-center"><p className="text-lg">NEXT</p><TbBrandNextjs /> <p className="text-sm">1 ANO</p></div>
 
-const loop = [html, css, js, node, mysql, sequelize, handlebars, react, next, nest]
+const loop = [html, css, js, node, mysql, sequelize, handlebars, react, next]
 
 export default function Carrossel() {
 
